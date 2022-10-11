@@ -17,9 +17,10 @@ public:
     ~Add_words();
 
 private slots:
-    void on_pushButton_add_category_clicked();
 
-    void on_pushButton_confirm_clicked();
+    void on_pushButton_add_words_clicked();
+
+    void on_pushButton_home_clicked();
 
 private:
     Ui::Add_words *ui;

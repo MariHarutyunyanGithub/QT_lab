@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>330</width>
+    <height>363</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(134, 214, 214);</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -24,8 +27,8 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>19</pointsize>
-     <bold>true</bold>
+     <pointsize>14</pointsize>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
@@ -35,63 +38,48 @@
   <widget class="QLabel" name="category">
    <property name="geometry">
     <rect>
-     <x>160</x>
+     <x>130</x>
      <y>0</y>
-     <width>191</width>
+     <width>111</width>
      <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>19</pointsize>
-     <bold>true</bold>
+     <pointsize>16</pointsize>
+     <bold>false</bold>
     </font>
    </property>
    <property name="text">
     <string>animal</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_add">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>70</y>
-     <width>51</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>19</pointsize>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="text">
-    <string>add</string>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="lineEdit_word">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>70</y>
+     <x>20</x>
+     <y>120</y>
      <width>121</width>
      <height>31</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>11</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(154, 153, 150);</string>
+   </property>
    <property name="text">
-    <string>word</string>
+    <string> add word</string>
    </property>
   </widget>
   <widget class="QLabel" name="word_1">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>160</x>
      <y>60</y>
      <width>81</width>
      <height>31</height>
@@ -109,7 +97,7 @@
   <widget class="QLabel" name="word_2">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>160</x>
      <y>90</y>
      <width>81</width>
      <height>31</height>
@@ -127,7 +115,7 @@
   <widget class="QLabel" name="word_4">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>160</x>
      <y>150</y>
      <width>81</width>
      <height>31</height>
@@ -145,7 +133,7 @@
   <widget class="QLabel" name="word_3">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>160</x>
      <y>120</y>
      <width>81</width>
      <height>31</height>
@@ -163,7 +151,7 @@
   <widget class="QLabel" name="word_5">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>160</x>
      <y>180</y>
      <width>81</width>
      <height>31</height>
@@ -181,11 +169,14 @@
   <widget class="QPushButton" name="ready">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>260</y>
+     <x>10</x>
+     <y>280</y>
      <width>89</width>
      <height>25</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(26, 135, 9);</string>
    </property>
    <property name="text">
     <string>ready</string>
@@ -194,11 +185,14 @@
   <widget class="QPushButton" name="back_to_categories">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>260</y>
+     <x>190</x>
+     <y>280</y>
      <width>89</width>
      <height>25</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(145, 65, 172);</string>
    </property>
    <property name="text">
     <string>categories</string>

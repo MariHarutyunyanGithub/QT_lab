@@ -5,6 +5,7 @@
 #include "rules.h"
 #include "add_words.h"
 #include "play.h"
+#include "exit.h"
 
 namespace Ui {
 class Home;
@@ -25,11 +26,18 @@ private slots:
 
     void on_pushButton_play_clicked();
 
+    void on_pushButton_exit_clicked();
+
+    void onDialogAccepted();
+
+    void onDialogRejected();
+
 private:
     Ui::Home *ui;
     Rules *rules;
     Add_words *add_words;
     Play *play;
+    Exit *exit;
 };
 
 #endif // HOME_H

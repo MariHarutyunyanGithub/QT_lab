@@ -13,16 +13,16 @@ Add_words::~Add_words()
     delete ui;
 }
 
-void Add_words::on_pushButton_add_category_clicked()
-{
-
-}
-
-
-void Add_words::on_pushButton_confirm_clicked()
+void Add_words::on_pushButton_add_words_clicked()
 {
     hide();
     category = new Category(this);
     category->show();
+}
+
+
+void Add_words::on_pushButton_home_clicked()
+{
+
 }
 

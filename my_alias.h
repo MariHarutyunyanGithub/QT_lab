@@ -17,8 +17,7 @@ public:
     ~My_Alias();
 
 private slots:
-    void on_pushButton_alias_clicked();
-
+    void on_start_clicked();
 private:
     Ui::My_Alias *ui;
     Home *home;

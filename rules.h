@@ -15,6 +15,10 @@ public:
     explicit Rules(QWidget *parent = nullptr);
     ~Rules();
 
+private slots:
+
+    void on_pushButton_clicked();
+
 private:
     Ui::Rules *ui;
 };

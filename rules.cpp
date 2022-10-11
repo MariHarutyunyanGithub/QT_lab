@@ -12,3 +12,14 @@ Rules::~Rules()
 {
     delete ui;
 }
+
+
+
+
+void Rules::on_pushButton_clicked()
+{
+    QDialog::reject();
+    //close();
+    //hide();
+}
+

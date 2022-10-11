@@ -19,3 +19,10 @@ void Play::on_pushButton_groups_clicked()
     groups = new Groups(this);
     groups->show();
 }
+void Play::on_pushButton_start_game_clicked()
+{
+    hide();
+    start = new Start(this);
+    start->show();
+}
+
