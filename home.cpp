@@ -6,10 +6,10 @@ Home::Home(QWidget *parent) :
     ui(new Ui::Home)
 {
     ui->setupUi(this);
-    QDialog a;
+    //QDialog a;
 
     //connect(rules, SIGNAL(accepted()), this, SLOT(onDialogAccepted()));
-    connect(rules, &QDialog::rejected, this, &Home::onDialogRejected);
+    //connect(rules, &QDialog::rejected, this, &Home::onDialogRejected);
 }
 
 Home::~Home()
@@ -19,7 +19,6 @@ Home::~Home()
 
 void Home::on_pushButton_rules_clicked()
 {
-    hide();
     rules = new Rules(this);
     rules->show();
 
@@ -28,7 +27,7 @@ void Home::on_pushButton_rules_clicked()
 
 void Home::on_pushButton_add_words_clicked()
 {
-    hide();
+    //hide();
     add_words = new Add_words(this);
     add_words->show();
 }
@@ -36,7 +35,7 @@ void Home::on_pushButton_add_words_clicked()
 
 void Home::on_pushButton_play_clicked()
 {
-    hide();
+    //hide();
     play = new Play(this);
     play->show();
 }
@@ -46,16 +45,4 @@ void Home::on_pushButton_exit_clicked()
 {
     exit = new Exit(this);
     exit->show();
-}
-
-void Home::onDialogAccepted()
-{
-    hide();
-    rules->show();
-}
-
-void Home::onDialogRejected()
-{
-    rules->hide();
-    show();
 }

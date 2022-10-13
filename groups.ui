@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(134, 214, 214);</string>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -31,7 +34,7 @@
     <string>groups</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="pushButton_play">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -40,8 +43,11 @@
      <height>25</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(26, 135, 9);</string>
+   </property>
    <property name="text">
-    <string>back</string>
+    <string>play</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
@@ -53,6 +59,9 @@
      <height>25</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(246, 211, 45);</string>
+   </property>
    <property name="text">
     <string>home</string>
    </property>
@@ -62,60 +71,36 @@
     <rect>
      <x>91</x>
      <y>151</y>
-     <width>227</width>
+     <width>251</width>
      <height>27</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="pushButton_5">
-      <property name="text">
-       <string>edit</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(192, 97, 203);</string>
+      </property>
       <property name="text">
        <string>group 1</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_4">
-      <property name="text">
-       <string>delete</string>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(51, 209, 122);</string>
       </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>91</x>
-     <y>184</y>
-     <width>227</width>
-     <height>27</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_2">
-    <item>
-     <widget class="QPushButton" name="pushButton_7">
       <property name="text">
        <string>edit</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>group 2</string>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(237, 51, 59);</string>
       </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton_9">
       <property name="text">
        <string>delete</string>
       </property>
@@ -126,29 +111,38 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>91</x>
-     <y>217</y>
-     <width>227</width>
-     <height>27</height>
+     <x>90</x>
+     <y>210</y>
+     <width>251</width>
+     <height>29</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_3">
     <item>
-     <widget class="QPushButton" name="pushButton_6">
-      <property name="text">
-       <string>edit</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(192, 97, 203);</string>
+      </property>
       <property name="text">
        <string>group 3</string>
       </property>
      </widget>
     </item>
     <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(51, 209, 122);</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QPushButton" name="pushButton_10">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(237, 51, 59);</string>
+      </property>
       <property name="text">
        <string>delete</string>
       </property>
@@ -159,29 +153,38 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>91</x>
-     <y>250</y>
-     <width>227</width>
+     <x>90</x>
+     <y>240</y>
+     <width>251</width>
      <height>27</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_4">
     <item>
-     <widget class="QPushButton" name="pushButton_8">
-      <property name="text">
-       <string>edit</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(192, 97, 203);</string>
+      </property>
       <property name="text">
        <string>group 4</string>
       </property>
      </widget>
     </item>
     <item>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(51, 209, 122);</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
      <widget class="QPushButton" name="pushButton_11">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(237, 51, 59);</string>
+      </property>
       <property name="text">
        <string>delete</string>
       </property>
@@ -198,22 +201,54 @@
      <height>25</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
-    <string>group name</string>
+    <string>add group</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_6">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>60</y>
-     <width>31</width>
-     <height>31</height>
+     <y>180</y>
+     <width>251</width>
+     <height>27</height>
     </rect>
    </property>
-   <property name="text">
-    <string>add</string>
-   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(192, 97, 203);</string>
+      </property>
+      <property name="text">
+       <string>group 2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(51, 209, 122);</string>
+      </property>
+      <property name="text">
+       <string>edit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(237, 51, 59);</string>
+      </property>
+      <property name="text">
+       <string>delete</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

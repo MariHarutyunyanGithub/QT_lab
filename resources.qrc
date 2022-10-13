@@ -1,5 +1,6 @@
 <RCC>
-    <qresource prefix="/img">
+    <qresource prefix="/reserve">
         <file>images/images.png</file>
+        <file>words/word_reserve.txt</file>
     </qresource>
 </RCC>

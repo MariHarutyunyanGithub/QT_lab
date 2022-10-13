@@ -22,6 +22,8 @@ private slots:
 
     void on_pushButton_home_clicked();
 
+    bool categories();
+
 private:
     Ui::Add_words *ui;
     Category *category;

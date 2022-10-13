@@ -1,0 +1,12 @@
+ANIMALS: shark| mouse| cat| dog| horse| elephand|
+-------------------------------------------------------------------------
+FLOWERS: clove| rose| tulip| violet|
+------------------------------------------------------------------------
+PEOPLE: Beethoven| Van Gogh| Whitney Houston| Garibaldi| Sherlock Holmes|
+------------------------------------------------------------------------
+COUNTRIES։ Armenia| Germany| Russia| Greece| India| China| Japan| 
+------------------------------------------------------------------------
+VERBS: to sleep| to eat| to play| to ask| to go| to beat| 
+------------------------------------------------------------------------
+FOODS: bread| cheese| butter| soup| rice| Pizza: potatoes| watermelon| 
+------------------------------------------------------------------------

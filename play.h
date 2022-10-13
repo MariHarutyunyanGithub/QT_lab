@@ -2,6 +2,8 @@
 #define PLAY_H
 
 #include <QDialog>
+#include <QTimer>
+
 #include "groups.h"
 #include "start.h"
 
@@ -23,10 +25,13 @@ private slots:
 
     void on_pushButton_start_game_clicked();
 
+    void countdown_timer();
+
 private:
     Ui::Play *ui;
     Groups *groups;
     Start *start;
+    QTimer *timer;
 };
 
 #endif // PLAY_H

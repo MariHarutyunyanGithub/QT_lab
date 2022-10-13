@@ -28,9 +28,9 @@ private slots:
 
     void on_pushButton_exit_clicked();
 
-    void onDialogAccepted();
+    //void onDialogAccepted();
 
-    void onDialogRejected();
+    //void onDialogRejected();
 
 private:
     Ui::Home *ui;

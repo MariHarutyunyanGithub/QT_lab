@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     add_words.cpp \
+    big_class.cpp \
     category.cpp \
     exit.cpp \
     groups.cpp \
@@ -24,6 +25,7 @@ SOURCES += \
 
 HEADERS += \
     add_words.h \
+    big_class.h \
     category.h \
     exit.h \
     groups.h \

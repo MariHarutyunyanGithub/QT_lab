@@ -16,10 +16,8 @@ Rules::~Rules()
 
 
 
-void Rules::on_pushButton_clicked()
+void Rules::on_pushButton_home_clicked()
 {
-    QDialog::reject();
-    //close();
-    //hide();
+    hide();
 }
 

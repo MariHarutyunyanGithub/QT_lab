@@ -171,7 +171,7 @@ color: rgb(154, 153, 150);</string>
     <rect>
      <x>10</x>
      <y>280</y>
-     <width>89</width>
+     <width>141</width>
      <height>25</height>
     </rect>
    </property>
@@ -185,9 +185,9 @@ color: rgb(154, 153, 150);</string>
   <widget class="QPushButton" name="back_to_categories">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>170</x>
      <y>280</y>
-     <width>89</width>
+     <width>131</width>
      <height>25</height>
     </rect>
    </property>
@@ -195,7 +195,23 @@ color: rgb(154, 153, 150);</string>
     <string notr="true">background-color: rgb(145, 65, 172);</string>
    </property>
    <property name="text">
-    <string>categories</string>
+    <string>back to categories</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ok">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>160</y>
+     <width>41</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(145, 65, 172);</string>
+   </property>
+   <property name="text">
+    <string>ok</string>
    </property>
   </widget>
  </widget>

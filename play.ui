@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(134, 214, 214);</string>
+  </property>
   <widget class="QPushButton" name="pushButton_groups">
    <property name="geometry">
     <rect>
@@ -28,6 +31,9 @@
      <bold>true</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(54, 65, 177);</string>
+   </property>
    <property name="text">
     <string>groups</string>
    </property>
@@ -40,6 +46,9 @@
      <width>89</width>
      <height>25</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(246, 211, 45);</string>
    </property>
    <property name="text">
     <string>home</string>
@@ -54,6 +63,9 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
   </widget>
   <widget class="QTimeEdit" name="timeEdit">
    <property name="geometry">
@@ -64,6 +76,9 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
   </widget>
   <widget class="QPushButton" name="pushButton_score_ok">
    <property name="geometry">
@@ -73,6 +88,9 @@
      <width>71</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(192, 97, 203);</string>
    </property>
    <property name="text">
     <string>ok</string>
@@ -130,6 +148,9 @@
      <pointsize>17</pointsize>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(26, 135, 9);</string>
    </property>
    <property name="text">
     <string>start game</string>

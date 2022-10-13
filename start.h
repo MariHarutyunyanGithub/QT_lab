@@ -22,4 +22,6 @@ private:
     Ui::Start *ui;
 };
 
+
+
 #endif // START_H
