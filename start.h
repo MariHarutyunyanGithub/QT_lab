@@ -2,11 +2,9 @@
 #define START_H
 
 #include <QDialog>
-
 namespace Ui {
 class Start;
 }
-
 class Start : public QDialog
 {
     Q_OBJECT
@@ -18,9 +16,12 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-private:
+public:
     Ui::Start *ui;
 };
+
+
+
 
 
 

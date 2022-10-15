@@ -12,3 +12,9 @@ Groups::~Groups()
 {
     delete ui;
 }
+
+void Groups::on_pushButton_home_clicked()
+{
+    hide();
+}
+

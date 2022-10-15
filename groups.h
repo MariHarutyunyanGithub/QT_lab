@@ -15,6 +15,9 @@ public:
     explicit Groups(QWidget *parent = nullptr);
     ~Groups();
 
+private slots:
+    void on_pushButton_home_clicked();
+
 private:
     Ui::Groups *ui;
 };

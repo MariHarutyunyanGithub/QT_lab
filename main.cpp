@@ -1,5 +1,4 @@
 #include "my_alias.h"
-#include "big_class.h"
 
 #include <QApplication>
 
